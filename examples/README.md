@@ -74,6 +74,18 @@ print("Report generated: report.txt")
 
 ---
 
+## 🚀 Prompts prêts à l'emploi
+
+Besoin de prompts pour démarrer ? Consultez **[PROMPTS-POUR-ATELIER.md](PROMPTS-POUR-ATELIER.md)** :
+- Prompts simples pour créer votre Agent
+- Prompts simples pour créer votre Skill
+- Prompts simples pour créer votre Workflow
+- Prompts de test et d'amélioration progressive
+
+**Copiez-collez et adaptez selon vos besoins !**
+
+---
+
 ## Comment utiliser ce cas pratique
 
 ### Avant l'atelier

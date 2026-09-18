@@ -63,8 +63,11 @@ Un **cas pratique concret** est fourni dans `examples/` pour que vous puissiez t
 - **Données** : `examples/tasks.json` (liste de tâches)
 - **Script à analyser** : `examples/task_reporter.py` (générateur de rapport)
 - **Guide** : `examples/README.md` (comment l'utiliser)
+- **🆕 Prompts prêts** : `examples/PROMPTS-POUR-ATELIER.md` (copie-colle les prompts !)
 
 **L'idée** : Votre Agent analyse le script et identifie des problèmes de qualité. Votre Skill l'optimise. Vous voyez les résultats concrets en fin d'atelier.
+
+**Raccourci rapide** : Si vous êtes bloqué pour démarrer, consultez directement [`examples/PROMPTS-POUR-ATELIER.md`](examples/PROMPTS-POUR-ATELIER.md) — tous les prompts Agent/Skill/Workflow y sont prêts à copier-coller.
 
 ---
 
