@@ -56,6 +56,18 @@ Tous trois répondront à **une problématique réelle de votre quotidien**.
 
 ---
 
+## 💡 Cas pratique à essayer pendant l'atelier
+
+Un **cas pratique concret** est fourni dans `examples/` pour que vous puissiez tester votre Agent et votre Skill en conditions réelles :
+
+- **Données** : `examples/tasks.json` (liste de tâches)
+- **Script à analyser** : `examples/task_reporter.py` (générateur de rapport)
+- **Guide** : `examples/README.md` (comment l'utiliser)
+
+**L'idée** : Votre Agent analyse le script et identifie des problèmes de qualité. Votre Skill l'optimise. Vous voyez les résultats concrets en fin d'atelier.
+
+---
+
 ## 🎯 Structure de votre `.claude/` (dans **votre** projet)
 
 Après l'atelier, vos créations seront organisées comme ça dans votre projet local :
@@ -85,6 +97,7 @@ mon-projet/
 | Expliquez-moi Agent / Skill / Workflow | [guide/01-agents-skills-workflows.md](guide/01-agents-skills-workflows.md) |
 | Je doute de la qualité de mon code | [guide/02-criteres-de-qualite.md](guide/02-criteres-de-qualite.md) |
 | Je veux un squelette à copier | [templates/](templates/) |
+| Je veux tester sur un cas concret | [examples/README.md](examples/README.md) |
 | Je dois documenter ce que j'ai fait | [RESTITUTION.md](RESTITUTION.md) |
 | Je suis l'animateur | [DEROULEMENT-ANIMATEUR.md](DEROULEMENT-ANIMATEUR.md) |
 

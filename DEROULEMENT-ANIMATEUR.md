@@ -55,17 +55,26 @@ Ne bloquez pas sur la théorie. Les participants apprendront mieux en faisant. P
 
 Voici deux approches :
 
-### Approche A : Démo live live d'un cas simple
+### Approche A : Démo live avec le cas pratique fourni
 
-Choisissez un cas **très simple** (ex : agent de review d'une fonction Python, skill de génération d'un fichier de config, workflow d'export de données). Pendant l'atelier en direct :
+Utilisez le **cas pratique de ce kit** (`examples/README.md`, `examples/task_reporter.py`, `examples/tasks.json`) comme point de départ concret.
 
-1. Ouvrez Claude Code
-2. Créez `.claude/agents/mon-demo-agent.md` avec un frontmatter + 2-3 lignes de contenu
-3. Testez l'agent en l'appelant depuis Claude Code
-4. Idem pour un skill simple
-5. Idem pour un workflow tier 1
+**Démo Agent :** Montrez comment appeler votre agent sur `examples/task_reporter.py`
+- Créez rapidement un agent en `.claude/agents/` avec une description comme « Effectue une review qualité d'un script Python »
+- Lancez-le sur `examples/task_reporter.py`
+- Montrez les findings en sortie JSON
+
+**Démo Skill :** Montrez comment le skill refactorise le script
+- Créez un skill avec la description « Active-toi quand l'utilisateur demande d'optimiser un script »
+- Passez-lui `examples/task_reporter.py` en entrée
+- Montrez la version optimisée en sortie
+
+**Démo Workflow :** Enchaînez les deux avec une slash command
+- Créez rapidement une commande `/review-and-optimize` qui lance l'agent, puis demande validation, puis le skill
 
 **Durée : 20–25 min live, parfait pour montrer les erreurs (oups, frontmatter cassé → correction) et ça paraît plus réel.**
+
+Le cas pratique `examples/` est **prêt à l'emploi** — il vous suffit de créer les fichiers agent/skill/workflow et de les tester.
 
 ### Approche B : Préparation en amont + démo précalculée
 
@@ -92,6 +101,7 @@ Rappelez aux participants :
 - Vous travaillez **chacun sur votre projet local** — pas dans `atelierIA/` qui est juste un kit de référence
 - Consultez les templates dans `templates/` pour copier les squelettes
 - Lisez `guide/02-criteres-de-qualite.md` si vous doutez de votre description ou de votre périmètre
+- **Optionnel** : vous pouvez utiliser `examples/` comme cas pratique (le cas d'usage de l'atelier fourni) ou vos propres données/scripts
 - **Demandez de l'aide si vous bloquez** — l'animateur est là pour ça
 
 ### Déroulement suggéré

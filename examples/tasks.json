@@ -1,0 +1,54 @@
+{
+  "project": "Atelier Claude Code",
+  "created_at": "2026-09-18",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Créer un Agent",
+      "description": "Implémenter un agent qui effectue une revue qualité de code",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Alice"
+    },
+    {
+      "id": 2,
+      "title": "Créer un Skill",
+      "description": "Implémenter un skill de génération de composants",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "Bob"
+    },
+    {
+      "id": 3,
+      "title": "Créer un Workflow",
+      "description": "Orchestre Agent + Skill pour une pipeline complète",
+      "status": "todo",
+      "priority": "medium",
+      "assignee": "Charlie"
+    },
+    {
+      "id": 4,
+      "title": "Documenter les concepts",
+      "description": "Écrire le guide de présentation des Agent/Skill/Workflow",
+      "status": "completed",
+      "priority": "high",
+      "assignee": "Alice"
+    },
+    {
+      "id": 5,
+      "title": "Tester localement",
+      "description": "Vérifier que tous les templates fonctionnent dans un vrai projet",
+      "status": "in_progress",
+      "priority": "medium",
+      "assignee": "Bob"
+    },
+    {
+      "id": 6,
+      "title": "Récupérer les retours",
+      "description": "Collecter et synthétiser les retours d'expérience post-atelier",
+      "status": "todo",
+      "priority": "low",
+      "assignee": "Charlie"
+    }
+  ]
+}

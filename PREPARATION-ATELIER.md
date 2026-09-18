@@ -62,6 +62,17 @@ Décrivez en 2-3 phrases la tâche ou le processus que vous souhaitez automatise
 
 ---
 
+## Cas pratique optionnel
+
+Pour avoir **des données concrètes à traiter pendant l'atelier**, consultez `examples/README.md`.
+
+Vous y trouverez :
+- Un petit script Python (`task_reporter.py`) que votre Agent pourra analyser
+- Des données d'exemple (`tasks.json`) que votre Skill pourra transformer
+- Comment l'utiliser pour tester Agent et Skill en conditions réelles
+
+**Optionnel** : vous pouvez vous préparer en lisant le script et en l'exécutant localement. Ou découvrir pendant l'atelier si vous préférez.
+
 ## Pré-requis techniques
 
 Veuillez vérifier que vous avez ces éléments prêts **avant l'atelier** :

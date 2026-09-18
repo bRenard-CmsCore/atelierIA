@@ -1,0 +1,50 @@
+==================================================
+TASK REPORT
+==================================================
+
+Project: Atelier Claude Code
+Created: 2026-09-18
+
+Summary:
+  - completed: 1 task(s)
+  - in_progress: 2 task(s)
+  - todo: 3 task(s)
+
+Tasks:
+--------------------------------------------------
+
+[TODO] Créer un Agent
+  ID: 1
+  Priority: HIGH
+  Assignee: Alice
+  Description: Implémenter un agent qui effectue une revue qualité de code
+
+[TODO] Créer un Skill
+  ID: 2
+  Priority: HIGH
+  Assignee: Bob
+  Description: Implémenter un skill de génération de composants
+
+[TODO] Créer un Workflow
+  ID: 3
+  Priority: MEDIUM
+  Assignee: Charlie
+  Description: Orchestre Agent + Skill pour une pipeline complète
+
+[COMPLETED] Documenter les concepts
+  ID: 4
+  Priority: HIGH
+  Assignee: Alice
+  Description: Écrire le guide de présentation des Agent/Skill/Workflow
+
+[IN_PROGRESS] Tester localement
+  ID: 5
+  Priority: MEDIUM
+  Assignee: Bob
+  Description: Vérifier que tous les templates fonctionnent dans un vrai projet
+
+[TODO] Récupérer les retours
+  ID: 6
+  Priority: LOW
+  Assignee: Charlie
+  Description: Collecter et synthétiser les retours d'expérience post-atelier
