@@ -19,7 +19,6 @@ Créez un dossier `.claude/` dans votre projet local :
 ```bash
 mkdir -p mon-projet/.claude/agents
 mkdir -p mon-projet/.claude/skills/mon-skill
-mkdir -p mon-projet/.claude/commands
 ```
 
 Copiez les squelettes :
