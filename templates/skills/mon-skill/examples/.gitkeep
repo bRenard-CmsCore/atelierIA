@@ -1,0 +1,7 @@
+# Ce dossier est destiné à accueillir les fichiers de référence de votre skill.
+#
+# Exemples : si votre skill génère des composants React, posez ici un template `AwesomeComponent.tsx.template`
+# que le skill devra imiter ou adapter. Votre skill utilisera ces fichiers comme "sources de vérité"
+# pour converger vers une sortie conforme aux conventions du projet.
+#
+# Pensez à les documenter brièvement dans votre SKILL.md (section "Sources de vérité").
