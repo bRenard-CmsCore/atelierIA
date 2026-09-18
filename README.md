@@ -2,6 +2,8 @@
 
 Bienvenue dans le kit d'atelier **Claude Code** — une session pratique dédiée à la création d'**Agents**, **Skills** et **Workflows** pour automatiser vos tâches récurrentes.
 
+⚡ **Si vous êtes pressé :** consultez [`QUICKSTART.md`](QUICKSTART.md) — 5 min pour démarrer !
+
 ## Objectif de l'atelier
 
 À la fin de cette session (3 à 3.5 heures), vous repartirez avec :
